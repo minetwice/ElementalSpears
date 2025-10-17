@@ -1,1 +1,13 @@
-
+name: SpearsPlugin
+version: 1.0
+main: me.minetwice.spears.Main
+api-version: 1.21
+commands:
+  spearadmin:
+    description: Admin commands for managing spears.
+    usage: /spearadmin <clear|reveal|giveall|togglecoords>
+    permission: spear.admin
+permissions:
+  spear.admin:
+    description: Allows usage of admin spear commands.
+    default: op
